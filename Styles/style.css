@@ -1,0 +1,200 @@
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+}
+
+html{
+  background-image: url(../Images/bg_main.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+
+/* navigation option style */
+.nav-list li{
+  border-left: 1px dotted gray;
+  border-bottom: 1px dotted rgba(128, 128, 128, 0.572);
+  
+}
+
+.nav-option-1 a{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #FF6600;
+   border-radius: 0px;
+}
+/* hover effects */
+.nav-option-1 a:hover{
+  color: white;
+  font: bolder;
+  transition: color .30s ease-in, background-image .2s linear .15s;
+}
+
+.nav-option-1 :hover{
+ background-color: #FF6600;
+ border-radius: 0px;
+}
+
+
+
+
+.nav-option-2 a{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #C40A2A;
+   border-radius: 0px;
+}
+/* hover effects */
+.nav-option-2 a:hover{
+  color: white;
+  font: bolder;
+  transition: color .30s ease-in, background-image .2s linear .15s;
+}
+
+.nav-option-2 :hover{
+ background-color: #C40A2A;
+ border-radius: 0px;
+}
+
+
+
+.nav-option-3 a{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #84154D;
+   border-radius: 0px;
+}
+/* hover effects */
+.nav-option-3 a:hover{
+  color: white;
+  font: bolder;
+  transition: color .30s ease-in, background-image .2s linear .15s;
+}
+
+.nav-option-3 :hover{
+ background-color: #84154D;
+ border-radius: 0px;
+}
+
+
+.nav-option-4 a{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #098346;
+   border-radius: 0px;
+}
+/* hover effects */
+.nav-option-4 a:hover{
+  color: white;
+  font: bolder;
+  transition: color .30s ease-in, background-image .2s linear .15s;
+}
+
+.nav-option-4 :hover{
+ background-color: #098346;
+ border-radius: 0px;
+}
+
+
+
+.nav-option-5 a{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #1399BE;
+   border-radius: 0px;
+}
+/* hover effects */
+.nav-option-5 a:hover{
+  color: white;
+  font: bolder;
+  transition: color .30s ease-in, background-image .2s linear .15s;
+}
+
+.nav-option-5 :hover{
+ background-color: #1399BE;
+ border-radius: 0px;
+}
+
+
+
+.nav-option-6 a{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #8768DE;
+   border-radius: 0px;
+}
+/* hover effects */
+.nav-option-6 a:hover{
+  color: white;
+  font: bolder;
+  transition: color .30s ease-in, background-image .2s linear .15s;
+}
+
+.nav-option-6 :hover{
+ background-color: #8768DE;
+ border-radius: 0px;
+}
+
+
+.nav-option-7 a{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #FF6600;
+   border-radius: 0px;
+}
+/* hover effects */
+.nav-option-7 a:hover{
+  color: white;
+  font: bolder;
+  transition: color .30s ease-in, background-image .2s linear .15s;
+}
+
+.nav-option-7 :hover{
+ background-color: #FF6600;
+ border-radius: 0px;
+}
+
+
+.nav-option-8 a{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #C40A2A;
+   border-radius: 0px;
+}
+/* hover effects */
+.nav-option-8 a:hover{
+  color: white;
+  font: bolder;
+  transition: color .30s ease-in, background-image .2s linear .15s;
+}
+
+.nav-option-8 :hover{
+ background-color: #C40A2A;
+ border-radius: 0px;
+}
+
+.nav-option-8{
+  border-right: 1px dotted gray;
+  opacity: 0.5;
+}
