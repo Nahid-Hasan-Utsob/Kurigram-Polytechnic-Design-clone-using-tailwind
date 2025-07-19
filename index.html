@@ -49,12 +49,12 @@
     ></script>
   </head>
 
-  <body class="max-w-screen-xl mx-auto roboto-font px-8">
+  <body class="max-w-screen-xl mx-auto roboto-font lg:px-8 px-2">
     <!-- header section -->
     <header>
       <!--  *?  top nav section start -->
       <section
-        class="bg-[#683091] flex items-center justify-between py-1 px-2 border-b-4 border-[#8bc643]"
+        class="bg-[#683091] flex items-center justify-between py-1 px-2 border-b-4 lg:border-[#8bc643] sm:border-white"
       >
         <div class="flex justify-evenly items-center gap-4">
           <div>
@@ -65,6 +65,9 @@
             </p>
           </div>
 
+          <div class="lg:flex items-center justify-evenly gap-2 hidden sm:block ">
+
+   
           <div>
             <select
               class="select select-primary text-sm text-left w-auto pr-7 pl-3 h-7"
@@ -85,16 +88,22 @@
           >
             GO
           </button>
+                 </div>
+
+
+
+
+
         </div>
 
         <div class="flex justify-evenly items-center gap-4">
-          <div>
+          <div class="hidden sm:block">
             <input type="text" class="input input-sm pl-3 w-auto" />
           </div>
 
-          <div>
+          <div  >
             <button
-              class="bg-[#4ba614] py-[4px] px-[15px] rounded-md text-base font-bold m-0 text-white border-[#34740e]"
+              class="bg-[#4ba614] py-[4px] px-[15px] rounded-md text-base font-bold m-0 text-white border-[#34740e] class="hidden sm:block""
             >
               Search
             </button>
@@ -108,14 +117,43 @@
         </div>
       </section>
 
+      <section class="bg-[#683091] px-1 ">
+        
+                  <div class=" items-center block sm:hidden">
+
+   
+          <div>
+            <select
+              class="select select-primary text-xs text-left w-full  pr-7 pl-3 h-7 mb-2 mt-1 rounded-sm x-1"
+            >
+              <option disabled selected>অফিসের ধরণ</option>
+              <option>মন্ত্রণালয়/বিভাগ</option>
+              <option>অধিদপ্তর বাতায়ন</option>
+              <option>বিভাগীয় বাতায়ন</option>
+              <option>জেলা বাতায়ন</option>
+              <option>উপজেলা বাতায়ন</option>
+              <option>ইউনিয়ন বাতায়ন</option>
+              <option>অন্যান্য</option>
+            </select>
+          </div>
+
+          <button
+            class="bg-[#4ba614] py-[4px] px-[10px] rounded-md text-sm font-bold m-0 text-white border-[#34740e]"
+          >
+            GO
+          </button>
+                 </div>
+      </section>
+
+
       <section
-        class="relative w-full h-96 bg-cover bg-center"
+        class="relative w-full h-96 bg-cover bg-center hidden sm:block"
         style="background-image: url('Images/nav.jpg')"
       >
         <div
           class="absolute left-20 top-28 flex items-center gap-4 cursor-pointer"
         >
-          <img src="Images/logo.png" alt="Government Logo" class="w-24 h-24" />
+          <img src="Images/logo.png" alt="Government Logo" class="w-24 h-24 " />
           <h1 class="">
             <a
               href=""
@@ -130,43 +168,42 @@
         </div>
       </section>
 
+
+      <!-- mobile section -->
+      <section class="bg-[#683091]  flex items-center justify-around py-3">
+        <div>
+          <a href=""><img src="Images/logo.png" alt=""></a>
+        </div>
+
+        <div>
+          <a href=""><h1 class="text-sm text-white font-bold">কুড়িগ্রাম পলিটেকনিক ইনস্টিটিউট, কুড়িগ্রাম</h1></a>
+        </div>
+      </section>
+
       <section>
         <nav>
           <div class="navbar bg-base-100 shadow-sm items-center">
             <div class="">
               <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M4 6h16M4 12h8m-8 6h16"
-                    />
-                  </svg>
+                <i class="fa-solid fa-bars bg-gray-500 py-1 px-4 text-sm text-white rounded-[3px]"></i>
                 </div>
                 <ul
                   tabindex="0"
                   class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
                 >
-                  <li><a>Item 1</a></li>
-                  <li>
-                    <a>Parent</a>
-                    <ul class="p-2">
-                      <li><a>Submenu 1</a></li>
-                      <li><a>Submenu 2</a></li>
-                    </ul>
-                  </li>
-                  <li><a>Item 3</a></li>
+                  <li class="nav-option-1"><a>প্রতিষ্ঠান সম্পর্কে</a></li>
+                <li class="nav-option-2"><a>পাঠ্যক্রম সম্পর্কে</a></li>
+                <li class="nav-option-3"><a>বিভাগসমূহ</a></li>
+                <li class="nav-option-4"><a>সহশিক্ষা কার্যক্রম</a></li>
+                <li class="nav-option-5"><a>প্রকাশনা </a></li>
+                <li class="nav-option-6"><a>গুরুত্বপূর্ণ লিংক </a></li>
+                <li class="nav-option-7"><a>ই-সেবা </a></li>
+                <li class="nav-option-8"><a>গ্যালারি</a></li>
                 </ul>
               </div>
-              <a class="text-2xl pr-2"><i class="fa-solid fa-house"></i></a>
+              <a class="text-xs pr-2"> মেনু নির্বাচন করুন</a>
+
             </div>
             <div class="navbar-center hidden lg:flex justify-start">
               <ul
@@ -190,21 +227,18 @@
 
     <!-- main body section -->
     <main class="lg:flex justify-evenly gap-6">
-      <section class="w-3/4">
+      <section class="lg:w-3/4">
         <!-- notice section start -->
         <section
-          style="
-            background-image: url(Images/bg_notice_board.png);
-            background-repeat: no-repeat;
-          "
-          class="flex items-center justify-center p-14 border bg-gray-200 rounded-sm"
+         
+          class="flex items-center justify-center lg:p-14  border lg:bg-gray-200 rounded-sm bg-white lg:bg-[url('Images/bg_notice_board.png')] bg-no-repeat"
         >
           <div class="">
             <div>
-              <h1 class="text-2xl mb-4">নোটিশ বোর্ড</h1>
+              <h1 class="lg:text-2xl text-sm lg:mb-4 mb-1">নোটিশ বোর্ড</h1>
             </div>
-            <div class="mr-5 flex flex-col gap-2">
-              <div class="flex items-center gap-4">
+            <div class="lg:mr-5 flex flex-col lg:gap-2 gap-1">
+              <div class="flex items-center lg:gap-4 gap-2">
                 <div>
                   <img
                     class="w-4 h-4"
