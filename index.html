@@ -1,76 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>কুড়িগ্রাম পলিটেকনিক ইনস্টিটিউট, কুড়িগ্রাম</title>
 
-  <title>কুড়িগ্রাম পলিটেকনিক ইনস্টিটিউট, কুড়িগ্রাম</title>
+    <link rel="shortcut icon" href="Images/logo.png" type="image/x-icon" />
 
-  <link rel="shortcut icon" href="Images/logo.png" type="image/x-icon" />
+    <!-- personal style  link -->
+    <link rel="stylesheet" href="Styles/style.css" />
 
-  <!-- personal style  link -->
-  <link rel="stylesheet" href="Styles/style.css" />
+    <!-- tailwind css cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- tailwind css cdn -->
-  <script src="https://cdn.tailwindcss.com"></script>
-
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            clifford: "#da373d",
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
           },
         },
-      },
-    };
-  </script>
+      };
+    </script>
 
-  <!-- daisyUI cdn -->
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- daisyUI cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-  <!-- Google font cdn -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet" />
+    <!-- Google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- icon cdn -->
-  <script src="https://kit.fontawesome.com/2d41a42db0.js" crossorigin="anonymous"></script>
+    <!-- icon cdn -->
+    <script
+      src="https://kit.fontawesome.com/2d41a42db0.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- bootstarp cdn -->
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- bootstarp cdn -->
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script> -->
 
-</head>
+  </head>
 
-<body class="max-w-screen-xl mx-auto roboto-font lg:px-8 px-2">
+  <body class="max-w-screen-xl mx-auto roboto-font lg:px-8 px-2">
 
-  <div class="fixed top-1/2 right-0 -translate-y-1/2 bg-blue-500 text-white px-4 py-2 rounded-l-lg shadow-lg">
-    আমি সবসময় ডান পাশে মাঝখানে থাকব
-  </div>
+    <div class="fixed top-3/4 right-0 -translate-y-1/2  text-white px-4 py-2 rounded-l-lg shadow-lg z-10 bg-white bg-opacity-50">
 
-
-  <!-- header section -->
-  <header>
-    <!--  *?  top nav section start -->
-    <section
-      class="bg-[#683091] flex items-center justify-between py-1 px-2 border-b-4 lg:border-[#8bc643] sm:border-white">
-      <div class="flex justify-evenly items-center gap-4">
-        <div>
-          <p>
-            <a class="text-xs text-white" href="#">বাংলাদেশ জাতীয় তথ্য বাতায়ন</a>
-          </p>
+      <div class="flex flex-col items-center justify-center">
+          <img class="lg:w-14 lg:h-14 w-10 h-10" src="Images/icon/poll-icon.gif" alt="">
+          <p class="lg:text-base text-xs text-blue-600 text-center p-1">পোলিং</p>
+         <img class="lg:w-14 lg:h-14 w-10 h-10" src="Images/icon/comment.gif" alt="">
+          <p class="lg:text-base text-xs text-blue-600 text-center p-1">মতামত</p>
         </div>
+      </div>
+</div>
 
-        <div class="lg:flex items-center justify-evenly gap-2 hidden sm:block ">
 
-
+    <!-- header section -->
+    <header>
+      <!--  *?  top nav section start -->
+      <section
+        class="bg-[#683091] flex items-center justify-between py-1 px-2 border-b-4 lg:border-[#8bc643] sm:border-white"
+      >
+        <div class="flex justify-evenly items-center gap-4">
           <div>
-            <select class="select select-primary text-sm text-left w-auto pr-7 pl-3 h-7">
+            <p>
+              <a class="text-xs text-white" href="#"
+                >বাংলাদেশ জাতীয় তথ্য বাতায়ন</a
+              >
+            </p>
+          </div>
+
+          <div class="lg:flex items-center justify-evenly gap-2 hidden sm:block md:hidden ">
+
+   
+          <div>
+            <select
+              class="select select-primary text-sm text-left w-auto pr-7 pl-3 h-7"
+            >
               <option disabled selected>অফিসের ধরণ</option>
               <option>মন্ত্রণালয়/বিভাগ</option>
               <option>অধিদপ্তর বাতায়ন</option>
@@ -83,98 +103,139 @@
           </div>
 
           <button
-            class="bg-[#4ba614] py-[4px] px-[15px] rounded-md text-base font-bold m-0 text-white border-[#34740e]">
+            class="bg-[#4ba614] py-[4px] px-[15px] rounded-md text-base font-bold m-0 text-white border-[#34740e]"
+          >
             GO
           </button>
+                 </div>
+
+
+
+
+
         </div>
 
+        <div class="flex justify-evenly items-center gap-4">
+          <div class=" hidden sm:block md:hidden lg:block ">
+            <input type="text" class="input input-sm pl-3 w-auto" />
+          </div>
 
+          <div class="flex" >
+            <button
+              class="bg-[#4ba614] py-[4px] px-[15px] rounded-md text-base font-bold m-0 text-white border-[#34740e] hidden sm:block md:hidden lg:block"
+            >
+              Search
+            </button>
 
-
-
-      </div>
-
-      <div class="flex justify-evenly items-center gap-4">
-        <div class=" hidden sm:block ">
-          <input type="text" class="input input-sm pl-3 w-auto" />
+            <button
+              class="lg:bg-gray-300 
+              bg-purple-400  py-[3px] px-[10px] rounded-md ml-2 lg:text-base text-sm  font-bold m-0 lg:text-black sm:text-white  border "
+            >
+              English
+            </button>
+          </div>
         </div>
+      </section>
 
-        <div class="flex">
+      <section class="bg-[#683091] px-1 ">
+        
+                  <div class=" items-center block sm:hidden  md:block lg:hidden">
+
+   
+          <div>
+            <select
+              class="select select-primary text-xs text-left w-full  pr-7 pl-3 h-7 mb-2 mt-1 rounded-sm x-1"
+            >
+              <option disabled selected>অফিসের ধরণ</option>
+              <option>মন্ত্রণালয়/বিভাগ</option>
+              <option>অধিদপ্তর বাতায়ন</option>
+              <option>বিভাগীয় বাতায়ন</option>
+              <option>জেলা বাতায়ন</option>
+              <option>উপজেলা বাতায়ন</option>
+              <option>ইউনিয়ন বাতায়ন</option>
+              <option>অন্যান্য</option>
+            </select>
+          </div>
+
           <button
-            class="bg-[#4ba614] py-[4px] px-[15px] rounded-md text-base font-bold m-0 text-white border-[#34740e] hidden sm:block">
-            Search
+            class="bg-[#4ba614] py-[4px] px-[10px] rounded-md text-sm font-bold m-0 text-white border-[#34740e]"
+          >
+            GO
           </button>
-
-          <button
-            class="lg:bg-gray-300 
-              bg-purple-400  py-[3px] px-[10px] rounded-md ml-2 lg:text-base text-sm  font-bold m-0 lg:text-black sm:text-white  border ">
-            English
-          </button>
-        </div>
-      </div>
-    </section>
-
-    <section class="bg-[#683091] px-1 ">
-
-      <div class=" items-center block sm:hidden">
+                 </div>
+      </section>
 
 
-        <div>
-          <select class="select select-primary text-xs text-left w-full  pr-7 pl-3 h-7 mb-2 mt-1 rounded-sm x-1">
-            <option disabled selected>অফিসের ধরণ</option>
-            <option>মন্ত্রণালয়/বিভাগ</option>
-            <option>অধিদপ্তর বাতায়ন</option>
-            <option>বিভাগীয় বাতায়ন</option>
-            <option>জেলা বাতায়ন</option>
-            <option>উপজেলা বাতায়ন</option>
-            <option>ইউনিয়ন বাতায়ন</option>
-            <option>অন্যান্য</option>
-          </select>
-        </div>
-
-        <button class="bg-[#4ba614] py-[4px] px-[10px] rounded-md text-sm font-bold m-0 text-white border-[#34740e]">
-          GO
-        </button>
-      </div>
-    </section>
-
-
-    <section class="relative w-full h-96 bg-cover bg-center hidden sm:block"
-      style="background-image: url('Images/nav.jpg')">
-      <div class="absolute left-20 top-28 flex items-center gap-4 cursor-pointer">
-        <img src="Images/logo.png" alt="Government Logo" class="w-24 h-24 " />
-        <h1 class="">
-          <a href="" style="
+      <section
+        class="relative w-full h-96 bg-cover bg-center hidden sm:block md:hidden lg:block"
+        style="background-image: url('Images/nav.jpg')"
+      >
+        <div
+          class="absolute left-20 top-28 flex items-center gap-4 cursor-pointer"
+        >
+          <img src="Images/logo.png" alt="Government Logo" class="w-24 h-24 " />
+          <h1 class="">
+            <a
+              href=""
+              style="
                 text-shadow: -1px -1px 10px #333, 1px -1px 10px #333,
                   -1px 1px 10px #333, 1px 1px 10px #333;
-              " class="text-2xl text-white font-bold cursor-pointer">কুড়িগ্রাম পলিটেকনিক ইনস্টিটিউট, কুড়িগ্রাম</a>
-        </h1>
-      </div>
-    </section>
+              "
+              class="text-2xl text-white font-bold cursor-pointer"
+              >কুড়িগ্রাম পলিটেকনিক ইনস্টিটিউট, কুড়িগ্রাম</a
+            >
+          </h1>
+        </div>
+      </section>
 
 
-    <!-- mobile section -->
-    <section class="bg-[#683091]  flex items-center justify-around py-3  sm:hidden">
-      <div>
-        <a href=""><img src="Images/logo.png" alt=""></a>
-      </div>
+      <!-- mobile section -->
+      <section class="bg-[#683091]  flex items-center justify-around py-3  sm:hidden md:block lg:hidden">
+        <div class="gap-3 flex justify-around items-center">
 
-      <div>
-        <a href="">
-          <h1 class="text-sm text-white font-bold">কুড়িগ্রাম পলিটেকনিক ইনস্টিটিউট, কুড়িগ্রাম</h1>
-        </a>
-      </div>
-    </section>
+        <div>
+          <a href=""><img src="Images/logo.png" alt=""></a>
+        </div>
 
-    <section>
-      <nav>
-        <div class="navbar bg-base-100 shadow-sm items-center">
-          <div class="">
-            <div class="dropdown">
-              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <div>
+          <a href=""><h1 class="text-sm text-white font-bold">কুড়িগ্রাম পলিটেকনিক ইনস্টিটিউট, কুড়িগ্রাম</h1></a>
+        </div>
+                </div>
+
+      </section>
+
+      <section>
+        <nav>
+          <div class="navbar bg-base-100 shadow-sm items-center">
+            <div class="md:flex md:items-center ">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                 <i class="fa-solid fa-bars bg-gray-500 py-1 px-4 text-sm text-white rounded-[3px]"></i>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+                >
+                  <li class="nav-option-1"><a>প্রতিষ্ঠান সম্পর্কে</a></li>
+                <li class="nav-option-2"><a>পাঠ্যক্রম সম্পর্কে</a></li>
+                <li class="nav-option-3"><a>বিভাগসমূহ</a></li>
+                <li class="nav-option-4"><a>সহশিক্ষা কার্যক্রম</a></li>
+                <li class="nav-option-5"><a>প্রকাশনা </a></li>
+                <li class="nav-option-6"><a>গুরুত্বপূর্ণ লিংক </a></li>
+                <li class="nav-option-7"><a>ই-সেবা </a></li>
+                <li class="nav-option-8"><a>গ্যালারি</a></li>
+                </ul>
               </div>
-              <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+              <a class="text-xs pr-2  sm:hidden md:block lg:hidden"> মেনু নির্বাচন করুন</a>
+
+            </div>
+            <div class="navbar-center hidden  lg:flex justify-start">
+              <ul
+                class="menu menu-horizontal px-1 lg:flex text-lg items-center text-center nav-list"
+              >
+
+                <li class="text-gray-600 text-xl"><a><i class="fa-solid fa-house"></i></a></li>
+              
                 <li class="nav-option-1"><a>প্রতিষ্ঠান সম্পর্কে</a></li>
                 <li class="nav-option-2"><a>পাঠ্যক্রম সম্পর্কে</a></li>
                 <li class="nav-option-3"><a>বিভাগসমূহ</a></li>
@@ -185,1206 +246,1725 @@
                 <li class="nav-option-8"><a>গ্যালারি</a></li>
               </ul>
             </div>
-            <a class="text-xs pr-2  sm:hidden "> মেনু নির্বাচন করুন</a>
-
           </div>
-          <div class="navbar-center hidden lg:flex justify-start">
-            <ul class="menu menu-horizontal px-1 lg:flex text-lg items-center text-center nav-list">
-              <li class="nav-option-1"><a>প্রতিষ্ঠান সম্পর্কে</a></li>
-              <li class="nav-option-2"><a>পাঠ্যক্রম সম্পর্কে</a></li>
-              <li class="nav-option-3"><a>বিভাগসমূহ</a></li>
-              <li class="nav-option-4"><a>সহশিক্ষা কার্যক্রম</a></li>
-              <li class="nav-option-5"><a>প্রকাশনা </a></li>
-              <li class="nav-option-6"><a>গুরুত্বপূর্ণ লিংক </a></li>
-              <li class="nav-option-7"><a>ই-সেবা </a></li>
-              <li class="nav-option-8"><a>গ্যালারি</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </section>
-
-    <div class="h-[4px] bg-gray-400  sm:hidden"></div>
-    <!--  *?  top nav section end -->
-  </header>
-
-  <!-- main body section -->
-  <main class="lg:flex justify-evenly gap-6">
-
-
-    <section>
-
-    </section>
-
-    <section class="lg:w-3/4">
-      <!-- notice section start -->
-      <section
-        class="flex items-center justify-center lg:p-14  border-black/20 border lg:bg-gray-200 rounded-sm bg-white lg:bg-[url('Images/bg_notice_board.png')] bg-no-repeat mt-2">
-        <div class="p-4">
-          <div>
-            <h1 class="lg:text-2xl text-base lg:mb-4 mb-1">নোটিশ বোর্ড</h1>
-          </div>
-          <div class="lg:mr-5 flex flex-col lg:gap-2 gap-1 pl-4">
-            <div class="flex items-center lg:gap-4 gap-2">
-              <div>
-                <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-              </div>
-              <div class="border-b-[1px] border-dotted border-black border-opacity-40">
-                <a href="" class="lg:text-sm text-xs text-gray-700 ">১৯-০৭-২০২৫ খ্রি. তারিখ সকাল ১০ঃ০০ ঘটিকায়
-                  অনুষ্ঠিতব্য
-                  পরীক্ষার পরিবর্তিত আসনবিন্যাস</a>
-              </div>
-            </div>
-            <div class="flex items-center lg:gap-4 gap-2">
-              <div>
-                <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-              </div>
-              <div class="border-b-[1px] border-dotted border-black border-opacity-40">
-                <a href="" class="lg:text-sm text-xs text-gray-700 ">১৯-০৭-২০২৫ খ্রি. তারিখ সকাল ১০ঃ০০ ঘটিকায়
-                  অনুষ্ঠিতব্য
-                  পরীক্ষার পরিবর্তিত আসনবিন্যাস</a>
-              </div>
-            </div>
-            <div class="flex items-center lg:gap-4 gap-2">
-              <div>
-                <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-              </div>
-              <div class="border-b-[1px] border-dotted border-black border-opacity-40">
-                <a href="" class="lg:text-sm text-xs text-gray-700 ">১৯-০৭-২০২৫ খ্রি. তারিখ সকাল ১০ঃ০০ ঘটিকায়
-                  অনুষ্ঠিতব্য
-                  পরীক্ষার পরিবর্তিত আসনবিন্যাস</a>
-              </div>
-            </div>
-            <div class="flex items-center lg:gap-4 gap-2">
-              <div>
-                <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-              </div>
-              <div class="border-b-[1px] border-dotted border-black border-opacity-40">
-                <a href="" class="lg:text-sm text-xs text-gray-700 ">১৯-০৭-২০২৫ খ্রি. তারিখ সকাল ১০ঃ০০ ঘটিকায়
-                  অনুষ্ঠিতব্য
-                  পরীক্ষার পরিবর্তিত আসনবিন্যাস</a>
-              </div>
-            </div>
-            <div class="flex items-center lg:gap-4 gap-2">
-              <div>
-                <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-              </div>
-              <div class="border-b-[1px] border-dotted border-black border-opacity-40">
-                <a href="" class="lg:text-sm text-xs text-gray-700 ">১৯-০৭-২০২৫ খ্রি. তারিখ সকাল ১০ঃ০০ ঘটিকায়
-                  অনুষ্ঠিতব্য
-                  পরীক্ষার পরিবর্তিত আসনবিন্যাস</a>
-              </div>
-            </div>
-            <div class="flex items-center lg:gap-4 gap-2">
-              <div>
-                <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-              </div>
-              <div class="border-b-[1px] border-dotted border-black border-opacity-40">
-                <a href="" class="lg:text-sm text-xs text-gray-700 ">১৯-০৭-২০২৫ খ্রি. তারিখ সকাল ১০ঃ০০ ঘটিকায়
-                  অনুষ্ঠিতব্য
-                  পরীক্ষার পরিবর্তিত আসনবিন্যাস</a>
-              </div>
-            </div>
-
-          </div>
-        </div>
+        </nav>
       </section>
-      <!-- notice section start -->
 
-      <!-- khobor section start  -->
+      <div class="h-[4px] bg-gray-400  sm:hidden md:block lg:hidden"></div>
+      <!--  *?  top nav section end -->
+    </header>
+
+    <!-- main body section -->
+    <main class="lg:flex justify-evenly gap-6">
+
+
       <section>
-        <div class="flex gap-2 w-full border-black/20 border py-5 px-5 mt-3 lg:bg-gray-200  rounded-sm items-center">
-          <p class="font-bold text-xs lg:text-base">খবর:</p>
-          <div>
-            <a href="" class="lg:text-sm text-xs text-gray-700 underline underline-offset-5">
-              ওয়েবসাইটে শিক্ষার্থী পোর্টাল তৈরি জন্য তথ্য ফর্ম (২০২৫-০৫-২৬)</a>
-          </div>
-        </div>
+        
       </section>
-      <!-- khobor section end -->
 
-      <!-- **institute section start -->
-      <section>
-        <section class="mt-5 grid lg:grid-cols-2 gap-3 grid-cols-1">
-          <!-- card 1 -->
-          <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
+      <section class="lg:w-3/4">
+        <!-- notice section start -->
+        <section
+         
+          class="flex items-center justify-center lg:p-14  border-black/20 border lg:bg-gray-200 rounded-sm bg-white lg:bg-[url('Images/bg_notice_board.png')] bg-no-repeat mt-2 "
+        >
+          <div class="p-4 md:w-full">
             <div>
-              <h1 class="lg:text-2xl text-lg pb-2">আমাদের ইনস্টিটিউট</h1>
+              <h1 class="lg:text-2xl text-base lg:mb-4 mb-1">নোটিশ বোর্ড</h1>
             </div>
-            <div class="flex items-center justify-start gap-6">
-              <div>
-                <img class="lg:w-36 lg:h-36 w-[100px]" src="Images/icon/kurigram_logo.jpg" alt="" />
-              </div>
-
-              <div class="flex flex-col gap-2">
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">এক নজরে</a>
+            <div class="lg:mr-5 flex flex-col lg:gap-2 gap-1 pl-4">
+              <div class="flex items-center lg:gap-4 gap-2">
+                <div>
+                  <img
+                    class="w-4 h-4"
+                    src="Images/icon/right-arrow.png"
+                    alt=""
+                  />
                 </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">অধ্যক্ষ</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">উপাধ্যক্ষ</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700 ">সাফল্য ও অর্জন</a>
+                <div class="border-b-[1px] border-dotted border-black border-opacity-40">
+                  <a
+                    href=""
+                    class="lg:text-sm text-xs text-gray-700 "
+                    >১৯-০৭-২০২৫ খ্রি. তারিখ সকাল ১০ঃ০০ ঘটিকায় অনুষ্ঠিতব্য
+                    পরীক্ষার পরিবর্তিত আসনবিন্যাস</a
+                  >
                 </div>
               </div>
-            </div>
-          </div>
-
-          <!-- card 2 -->
-          <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
-            <div>
-              <h1 class="lg:text-2xl text-lg pb-2">প্রশাসন</h1>
-            </div>
-            <div class="flex items-center justify-start gap-6">
-              <div>
-                <img class="lg:w-36 lg:h-36 w-[100px]" src="Images/icon/prosason.png" alt="" />
-              </div>
-
-              <div class="flex flex-col gap-2">
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">প্রশাসনিক কাঠামো</a>
+              <div class="flex items-center lg:gap-4 gap-2">
+                <div>
+                  <img
+                    class="w-4 h-4"
+                    src="Images/icon/right-arrow.png"
+                    alt=""
+                  />
                 </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">শিক্ষকবৃন্দ</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">কর্মচারীবৃন্দ</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">অফিস আদেশ</a>
+                <div class="border-b-[1px] border-dotted border-black border-opacity-40">
+                  <a
+                    href=""
+                    class="lg:text-sm text-xs text-gray-700 "
+                    >১৯-০৭-২০২৫ খ্রি. তারিখ সকাল ১০ঃ০০ ঘটিকায় অনুষ্ঠিতব্য
+                    পরীক্ষার পরিবর্তিত আসনবিন্যাস</a
+                  >
                 </div>
               </div>
-            </div>
-          </div>
-
-          <!-- card 3 -->
-          <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
-            <div>
-              <h1 class="lg:text-2xl text-lg pb-2">অনুষদ</h1>
-            </div>
-            <div class="flex items-center justify-start gap-6">
-              <div>
-                <img class="lg:w-36 lg:h-36 w-[100px]" src="Images/icon/cars-3.png" alt="" />
-              </div>
-
-              <div class="flex flex-col gap-2">
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">বিভাগসমূহ </a>
+              <div class="flex items-center lg:gap-4 gap-2">
+                <div>
+                  <img
+                    class="w-4 h-4"
+                    src="Images/icon/right-arrow.png"
+                    alt=""
+                  />
                 </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">বিভাগীয় প্রধানগণ</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">কর্মপরিকল্পনা</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">নীতিমালা</a>
+                <div class="border-b-[1px] border-dotted border-black border-opacity-40">
+                  <a
+                    href=""
+                    class="lg:text-sm text-xs text-gray-700 "
+                    >১৯-০৭-২০২৫ খ্রি. তারিখ সকাল ১০ঃ০০ ঘটিকায় অনুষ্ঠিতব্য
+                    পরীক্ষার পরিবর্তিত আসনবিন্যাস</a
+                  >
                 </div>
               </div>
-            </div>
-          </div>
-
-          <!-- card4-->
-          <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
-            <div>
-              <h1 class="lg:text-2xl text-lg pb-2">ভর্তি বিষয়ক</h1>
-            </div>
-            <div class="flex items-center justify-start gap-6">
-              <div>
-                <img class="lg:w-36 lg:h-36 w-[100px]" src="Images/icon/card-4.png" alt="" />
-              </div>
-
-              <div class="flex flex-col gap-2">
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">ভর্তির বিজ্ঞপ্তি
-                  </a>
+              <div class="flex items-center lg:gap-4 gap-2">
+                <div>
+                  <img
+                    class="w-4 h-4"
+                    src="Images/icon/right-arrow.png"
+                    alt=""
+                  />
                 </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">ভর্তি পরীক্ষার তথ্য</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">ভর্তি পরীক্ষার ফলাফল
-                  </a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">ফোকাল পয়েন্ট </a>
+                <div class="border-b-[1px] border-dotted border-black border-opacity-40">
+                  <a
+                    href=""
+                    class="lg:text-sm text-xs text-gray-700 "
+                    >১৯-০৭-২০২৫ খ্রি. তারিখ সকাল ১০ঃ০০ ঘটিকায় অনুষ্ঠিতব্য
+                    পরীক্ষার পরিবর্তিত আসনবিন্যাস</a
+                  >
                 </div>
               </div>
-            </div>
-          </div>
-
-          <!-- card 5 -->
-          <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
-            <div>
-              <h1 class="lg:text-2xl text-lg pb-2">পরীক্ষা বিষয়ক</h1>
-            </div>
-            <div class="flex items-center justify-start gap-6">
-              <div>
-                <img class="lg:w-36 lg:h-36 w-[100px]" src="Images/icon/card-5.png" alt="" />
-              </div>
-
-              <div class="flex flex-col gap-2">
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">পরীক্ষার বিজ্ঞপ্তি</a>
+              <div class="flex items-center lg:gap-4 gap-2">
+                <div>
+                  <img
+                    class="w-4 h-4"
+                    src="Images/icon/right-arrow.png"
+                    alt=""
+                  />
                 </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">পরীক্ষার সম্ভাব্য তারিখ</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">পরীক্ষার ফরম পূরণ
-                  </a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">ফোকাল পয়েন্ট </a>
+                <div class="border-b-[1px] border-dotted border-black border-opacity-40">
+                  <a
+                    href=""
+                    class="lg:text-sm text-xs text-gray-700 "
+                    >১৯-০৭-২০২৫ খ্রি. তারিখ সকাল ১০ঃ০০ ঘটিকায় অনুষ্ঠিতব্য
+                    পরীক্ষার পরিবর্তিত আসনবিন্যাস</a
+                  >
                 </div>
               </div>
-            </div>
-          </div>
-
-          <!-- card 6 -->
-          <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
-            <div>
-              <h1 class="lg:text-2xl text-lg pb-2">ফলাফল বিষয়ক</h1>
-            </div>
-            <div class="flex items-center justify-start gap-6">
-              <div>
-                <img class="lg:w-36 lg:h-36 w-[100px]" src="Images/icon/card-6.png" alt="" />
-              </div>
-
-              <div class="flex flex-col gap-2">
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">ফলাফল সংক্রান্ত বিজ্ঞপ্তি</a>
+              <div class="flex items-center lg:gap-4 gap-2">
+                <div>
+                  <img
+                    class="w-4 h-4"
+                    src="Images/icon/right-arrow.png"
+                    alt=""
+                  />
                 </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">ফোকাল পয়েন্ট </a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">সার্টিফিকেট সংক্রান্ত তথ্য</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">ফলাফল সংক্রান্ত তথ্য</a>
+                <div class="border-b-[1px] border-dotted border-black border-opacity-40">
+                  <a
+                    href=""
+                    class="lg:text-sm text-xs text-gray-700 "
+                    >১৯-০৭-২০২৫ খ্রি. তারিখ সকাল ১০ঃ০০ ঘটিকায় অনুষ্ঠিতব্য
+                    পরীক্ষার পরিবর্তিত আসনবিন্যাস</a
+                  >
                 </div>
               </div>
-            </div>
-          </div>
-
-          <!-- card 7 -->
-          <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
-            <div>
-              <h1 class="lg:text-2xl text-lg pb-2">প্রশাসন</h1>
-            </div>
-            <div class="flex items-center justify-start gap-6">
-              <div>
-                <img class="lg:w-36 lg:h-36 w-[100px]" src="Images/icon/card-7.png" alt="" />
-              </div>
-
-              <div class="flex flex-col gap-2">
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">এলামনাই সেল </a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">এলামনাই আইন ও বিধিমালা</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">এলামনাই তালিকা</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">এলামনাই ফোকাল পয়েন্ট</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- card 8-->
-          <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
-            <div>
-              <h1 class="lg:text-2xl text-lg pb-2">সহায়ক লিংক</h1>
-            </div>
-            <div class="flex items-center justify-start gap-6">
-              <div>
-                <img class="lg:w-36 lg:h-36 w-[100px]" src="Images/icon/card-8.png" alt="" />
-              </div>
-
-              <div class="flex flex-col gap-2">
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">জাতীয় বিশ্ববিদ্যালয়</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">শিক্ষক বাতায়ন</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">মুক্তপাঠ</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- card 9 -->
-          <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
-            <div>
-              <h1 class="lg:text-2xl text-lg pb-2">তথ্য অধিকার</h1>
-            </div>
-            <div class="flex items-center justify-start gap-6">
-              <div>
-                <img class="lg:w-36 lg:h-36 w-[100px]" src="Images/icon/card-9.png" alt="" />
-              </div>
-
-              <div class="flex flex-col gap-2">
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">তথ্য প্রদানকারী কর্মকর্তা</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">তথ্য অধিকার আইন ও বিধিমালা</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">স্বপ্রণোদিতভাবে তথ্য প্রকাশ নির্দেশিকা</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">তথ্যের আবেদন ও আপীল ফরম</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- card 10-->
-          <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
-            <div>
-              <h1 class="lg:text-2xl text-lg pb-2">অভিযোগ প্রতিকার ব্যবস্থাপনা</h1>
-            </div>
-            <div class="flex items-center justify-start gap-6">
-              <div>
-                <img class="lg:w-36 lg:h-36 w-[100px]" src="Images/icon/card-10.png" alt="" />
-              </div>
-
-              <div class="flex flex-col gap-2">
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">নির্দেশিকাসমূহ</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">অনলাইনে অভিযোগ দাখিল</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">অভিযোগ প্রতিকার ব্যবস্থা</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">অনিক ও আপিল কর্মকর্তা</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- card 11 -->
-          <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
-            <div>
-              <h1 class="lg:text-2xl text-lg pb-2">বার্ষিক কর্মসম্পাদন চুক্তি</h1>
-            </div>
-            <div class="flex items-center justify-start gap-6">
-              <div>
-                <img class="lg:w-36 lg:h-36 w-[100px]" src="Images/icon/card-11.png" alt="" />
-              </div>
-
-              <div class="flex flex-col gap-2">
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">এপিএ প্রকাশনা/নির্দেশিকা/পরিপত্র</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">চুক্তিসমূহ</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">পরিবীক্ষণ ও মূল্যায়ন প্রতিবেদন</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">বার্ষিক ক্রয় পরিকল্পনা/দরপত্র</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- card 12 -->
-          <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
-            <div>
-              <h1 class="lg:text-2xl text-lg pb-2">শুদ্ধাচার কৌশল</h1>
-            </div>
-            <div class="flex items-center justify-start gap-6">
-              <div>
-                <img class="lg:w-36 lg:h-36 w-[100px]" src="Images/icon/card-12.jpg" alt="" />
-              </div>
-
-              <div class="flex flex-col gap-2">
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">জাতীয় শুদ্ধাচার কৌশল
-                  </a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">কর্মপরিকল্পনা</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">শুদ্ধাচার কৌশল কমিটি</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">শুদ্ধাচার পুরস্কার
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- card 13 -->
-          <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
-            <div>
-              <h1 class="lg:text-2xl text-lg pb-2">
-                সেবা প্রদান প্রতিশ্রুতি (সিটিজেন চার্টার)
-              </h1>
-            </div>
-            <div class="flex items-center justify-start gap-6">
-              <div>
-                <img class="lg:w-36 lg:h-36 w-[100px]" src="Images/icon/card-13.png" alt="" />
-              </div>
-
-              <div class="flex flex-col gap-2">
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">সিটিজেন চার্টার</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">ফোকাল পয়েন্ট কর্মকর্তা/পরিবীক্ষণ কমিটি</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">পরিবীক্ষণ/মূল্যায়ন প্রতিবেদন</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">আইন/বিধি/নীতিমালা/পরিপত্র</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- card 14 -->
-          <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
-            <div>
-              <h1 class="lg:text-2xl text-lg pb-2">ই-সেবা</h1>
-            </div>
-            <div class="flex items-center justify-start gap-6">
-              <div>
-                <img class="lg:w-36 lg:h-36 w-[100px]" src="Images/icon/card-14.png" alt="" />
-              </div>
-
-              <div class="flex flex-col gap-2">
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">ই-পেমেন্ট-বেতনাদি</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">মাল্টিমিডিয়া কন্টেন্ট</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">ই-বুক</a>
-                </div>
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">শিক্ষক-কর্মচারীদের PDS</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- card 15 -->
-          <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
-            <div>
-              <h1 class="lg:text-2xl text-lg pb-2">জব প্লেসমেন্ট সেল</h1>
-            </div>
-            <div class="flex items-center justify-start gap-6">
-              <div>
-                <img class="lg:w-36 lg:h-36 w-[100px]" src="Images/icon/card-15.png" alt="" />
-              </div>
-
-              <div class="flex flex-col gap-2">
-                <div class="flex items-center gap-4">
-                  <div>
-                    <img class="w-4 h-4" src="Images/icon/right-arrow.png" alt="" />
-                  </div>
-                  <a href="" class="lg:text-sm text-xs text-gray-700">ডিপ্লোমা গ্রাজুয়েটদের তথ্য ফরম</a>
-                </div>
-              </div>
+           
             </div>
           </div>
         </section>
-        <!-- ** institute section end -->
+        <!-- notice section start -->
 
+        <!-- khobor section start  -->
         <section>
-          <div class="py-2 px-5 mt-5 bg-[#609513] w-full text-start">
-            <h1 class="lg:text-sm text-xs text-white font-bold">ম্যাপ</h1>
+          <div
+            class="flex gap-2 w-full border-black/20 border py-5 px-5 mt-3 lg:bg-gray-200  rounded-sm items-center"
+          >
+            <p class="font-bold text-xs lg:text-base">খবর:</p>
+            <div>
+              <a
+                href=""
+                class="lg:text-sm text-xs text-gray-700 underline underline-offset-5"
+              >
+                ওয়েবসাইটে শিক্ষার্থী পোর্টাল তৈরি জন্য তথ্য ফর্ম (২০২৫-০৫-২৬)</a
+              >
+            </div>
           </div>
-          <div class="w-full">
-            <table class="w-full">
-              <tbody>
-                <tr>
-                  <td style="text-align: center">
-                    &lt;<iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.0314746789804!2d89.63237447540179!3d25.802535677326336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e2c927d9521f4d%3A0x2b0a9ba2c39ea8bf!2sKurigram%20Polytechnic%20Institute!5e0!3m2!1sen!2sbd!4v1700464151111!5m2!1sen!2sbd"
-                      width="100%" height="450" style="border: 0" allowfullscreen="" loading="lazy"
-                      referrerpolicy="no-referrer-when-downgrade"></iframe>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+        </section>
+        <!-- khobor section end -->
 
-          <!-- image side section  start-->
-          <section>
-            <div class="carousel w-full h-[432px] my-4">
-              <div id="slide1" class="carousel-item relative w-full">
-                <img src="Images/teacher/img-1.jpg" class="w-full" />
-                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                  <a href="#slide6" class="btn btn-circle"><i class="fa-solid fa-arrow-left"></i></a>
-                  <a href="#slide2" class="btn btn-circle"><i class="fa-solid fa-arrow-right"></i></a>
+        <!-- **institute section start -->
+        <section>
+          <section class="mt-5 grid lg:grid-cols-2 md:grid-cols-2 gap-3 grid-cols-1 ">
+            <!-- card 1 -->
+            <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
+              <div>
+                <h1 class="lg:text-2xl text-lg pb-2">আমাদের ইনস্টিটিউট</h1>
+              </div>
+              <div class="flex items-center justify-start gap-6">
+                <div>
+                  <img
+                    class="lg:w-36 lg:h-36 w-[100px]"
+                    src="Images/icon/kurigram_logo.jpg"
+                    alt=""
+                  />
+                </div>
+
+                <div class="flex flex-col gap-2">
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                    <a href="" class="lg:text-sm text-xs text-gray-700">এক নজরে</a>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                    <a href="" class="lg:text-sm text-xs text-gray-700">অধ্যক্ষ</a>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                    <a href="" class="lg:text-sm text-xs text-gray-700">উপাধ্যক্ষ</a>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                    <a href="" class="lg:text-sm text-xs text-gray-700 ">সাফল্য ও অর্জন</a>
+                  </div>
                 </div>
               </div>
+            </div>
 
-              <div id="slide2" class="carousel-item relative w-full">
-                <img src="Images/teacher/img-2.jpg" />
-                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                  <a href="#slide1" class="btn btn-circle"><i class="fa-solid fa-arrow-left"></i></a>
-                  <a href="#slide3" class="btn btn-circle"><i class="fa-solid fa-arrow-right"></i></a>
+            <!-- card 2 -->
+           <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
+              <div>
+                 <h1 class="lg:text-2xl text-lg pb-2">প্রশাসন</h1>
+              </div>
+              <div class="flex items-center justify-start gap-6">
+                <div>
+                  <img
+                    class="lg:w-36 lg:h-36 w-[100px]"
+                    src="Images/icon/prosason.png"
+                    alt=""
+                  />
+                </div>
+
+                <div class="flex flex-col gap-2">
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >প্রশাসনিক কাঠামো</a
+                    >
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700">শিক্ষকবৃন্দ</a>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700">কর্মচারীবৃন্দ</a>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700">অফিস আদেশ</a>
+                  </div>
                 </div>
               </div>
+            </div>
 
-              <div id="slide3" class="carousel-item relative w-full">
-                <img src="Images/teacher/img-3.jpg" class="w-full" />
-                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                  <a href="#slide2" class="btn btn-circle"><i class="fa-solid fa-arrow-left"></i></a>
-                  <a href="#slide4" class="btn btn-circle"><i class="fa-solid fa-arrow-right"></i></a>
+            <!-- card 3 -->
+           <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
+              <div>
+                 <h1 class="lg:text-2xl text-lg pb-2">অনুষদ</h1>
+              </div>
+              <div class="flex items-center justify-start gap-6">
+                <div>
+                  <img class="lg:w-36 lg:h-36 w-[100px]" src="Images/icon/cars-3.png" alt="" />
+                </div>
+
+                <div class="flex flex-col gap-2">
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700">বিভাগসমূহ </a>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >বিভাগীয় প্রধানগণ</a
+                    >
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700">কর্মপরিকল্পনা</a>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700">নীতিমালা</a>
+                  </div>
                 </div>
               </div>
+            </div>
 
-              <div id="slide4" class="carousel-item relative w-full">
-                <img src="Images/teacher/img-4.jpg" class="w-full" />
-                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                  <a href="#slide4" class="btn btn-circle"><i class="fa-solid fa-arrow-left"></i></a>
-                  <a href="#slide5" class="btn btn-circle"><i class="fa-solid fa-arrow-right"></i></a>
+            <!-- card4-->
+           <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
+              <div>
+                 <h1 class="lg:text-2xl text-lg pb-2">ভর্তি বিষয়ক</h1>
+              </div>
+              <div class="flex items-center justify-start gap-6">
+                <div>
+                  <img class="lg:w-36 lg:h-36 w-[100px]" src="Images/icon/card-4.png" alt="" />
+                </div>
+
+                <div class="flex flex-col gap-2">
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >ভর্তির বিজ্ঞপ্তি
+                    </a>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >ভর্তি পরীক্ষার তথ্য</a
+                    >
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >ভর্তি পরীক্ষার ফলাফল
+                    </a>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700">ফোকাল পয়েন্ট </a>
+                  </div>
                 </div>
               </div>
+            </div>
 
-              <div id="slide5" class="carousel-item relative w-full">
-                <img src="Images/teacher/img-6.jpg" class="w-full" />
-                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                  <a href="#slide4" class="btn btn-circle"><i class="fa-solid fa-arrow-left"></i></a>
-                  <a href="#slide6" class="btn btn-circle"><i class="fa-solid fa-arrow-right"></i></a>
+            <!-- card 5 -->
+           <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
+              <div>
+                 <h1 class="lg:text-2xl text-lg pb-2">পরীক্ষা বিষয়ক</h1>
+              </div>
+              <div class="flex items-center justify-start gap-6">
+                <div>
+                  <img class="lg:w-36 lg:h-36 w-[100px]" src="Images/icon/card-5.png" alt="" />
+                </div>
+
+                <div class="flex flex-col gap-2">
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >পরীক্ষার বিজ্ঞপ্তি</a
+                    >
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >পরীক্ষার সম্ভাব্য তারিখ</a
+                    >
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >পরীক্ষার ফরম পূরণ
+                    </a>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700">ফোকাল পয়েন্ট </a>
+                  </div>
                 </div>
               </div>
+            </div>
 
-              <div id="slide6" class="carousel-item relative w-full">
-                <img src="Images/teacher/img-7.jpg" class="w-full" />
-                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                  <a href="#slide5" class="btn btn-circle"><i class="fa-solid fa-arrow-left"></i></a>
-                  <a href="#slide1" class="btn btn-circle"><i class="fa-solid fa-arrow-right"></i></a>
+            <!-- card 6 -->
+           <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
+              <div>
+                 <h1 class="lg:text-2xl text-lg pb-2">ফলাফল বিষয়ক</h1>
+              </div>
+              <div class="flex items-center justify-start gap-6">
+                <div>
+                  <img class="lg:w-36 lg:h-36 w-[100px]" src="Images/icon/card-6.png" alt="" />
+                </div>
+
+                <div class="flex flex-col gap-2">
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >ফলাফল সংক্রান্ত বিজ্ঞপ্তি</a
+                    >
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700">ফোকাল পয়েন্ট </a>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >সার্টিফিকেট সংক্রান্ত তথ্য</a
+                    >
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >ফলাফল সংক্রান্ত তথ্য</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 7 -->
+           <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
+              <div>
+                 <h1 class="lg:text-2xl text-lg pb-2">প্রশাসন</h1>
+              </div>
+              <div class="flex items-center justify-start gap-6">
+                <div>
+                  <img class="lg:w-36 lg:h-36 w-[100px]" src="Images/icon/card-7.png" alt="" />
+                </div>
+
+                <div class="flex flex-col gap-2">
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700">এলামনাই সেল </a>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >এলামনাই আইন ও বিধিমালা</a
+                    >
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700">এলামনাই তালিকা</a>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >এলামনাই ফোকাল পয়েন্ট</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 8-->
+           <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
+              <div>
+                 <h1 class="lg:text-2xl text-lg pb-2">সহায়ক লিংক</h1>
+              </div>
+              <div class="flex items-center justify-start gap-6">
+                <div>
+                  <img class="lg:w-36 lg:h-36 w-[100px]" src="Images/icon/card-8.png" alt="" />
+                </div>
+
+                <div class="flex flex-col gap-2">
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >জাতীয় বিশ্ববিদ্যালয়</a
+                    >
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর</a
+                    >
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700">শিক্ষক বাতায়ন</a>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700">মুক্তপাঠ</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 9 -->
+           <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
+              <div>
+                 <h1 class="lg:text-2xl text-lg pb-2">তথ্য অধিকার</h1>
+              </div>
+              <div class="flex items-center justify-start gap-6">
+                <div>
+                  <img class="lg:w-36 lg:h-36 w-[100px]" src="Images/icon/card-9.png" alt="" />
+                </div>
+
+                <div class="flex flex-col gap-2">
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >তথ্য প্রদানকারী কর্মকর্তা</a
+                    >
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >তথ্য অধিকার আইন ও বিধিমালা</a
+                    >
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >স্বপ্রণোদিতভাবে তথ্য প্রকাশ নির্দেশিকা</a
+                    >
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >তথ্যের আবেদন ও আপীল ফরম</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 10-->
+           <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
+              <div>
+                 <h1 class="lg:text-2xl text-lg pb-2">অভিযোগ প্রতিকার ব্যবস্থাপনা</h1>
+              </div>
+              <div class="flex items-center justify-start gap-6">
+                <div>
+                  <img class="lg:w-36 lg:h-36 w-[100px]" src="Images/icon/card-10.png" alt="" />
+                </div>
+
+                <div class="flex flex-col gap-2">
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700">নির্দেশিকাসমূহ</a>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >অনলাইনে অভিযোগ দাখিল</a
+                    >
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >অভিযোগ প্রতিকার ব্যবস্থা</a
+                    >
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >অনিক ও আপিল কর্মকর্তা</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 11 -->
+           <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
+              <div>
+                 <h1 class="lg:text-2xl text-lg pb-2">বার্ষিক কর্মসম্পাদন চুক্তি</h1>
+              </div>
+              <div class="flex items-center justify-start gap-6">
+                <div>
+                  <img class="lg:w-36 lg:h-36 w-[100px]" src="Images/icon/card-11.png" alt="" />
+                </div>
+
+                <div class="flex flex-col gap-2">
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >এপিএ প্রকাশনা/নির্দেশিকা/পরিপত্র</a
+                    >
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700">চুক্তিসমূহ</a>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >পরিবীক্ষণ ও মূল্যায়ন প্রতিবেদন</a
+                    >
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >বার্ষিক ক্রয় পরিকল্পনা/দরপত্র</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 12 -->
+           <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
+              <div>
+                 <h1 class="lg:text-2xl text-lg pb-2">শুদ্ধাচার কৌশল</h1>
+              </div>
+              <div class="flex items-center justify-start gap-6">
+                <div>
+                  <img class="lg:w-36 lg:h-36 w-[100px]" src="Images/icon/card-12.jpg" alt="" />
+                </div>
+
+                <div class="flex flex-col gap-2">
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >জাতীয় শুদ্ধাচার কৌশল
+                    </a>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700">কর্মপরিকল্পনা</a>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >শুদ্ধাচার কৌশল কমিটি</a
+                    >
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >শুদ্ধাচার পুরস্কার
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 13 -->
+           <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
+              <div>
+                 <h1 class="lg:text-2xl text-lg pb-2">
+                  সেবা প্রদান প্রতিশ্রুতি (সিটিজেন চার্টার)
+                </h1>
+              </div>
+              <div class="flex items-center justify-start gap-6">
+                <div>
+                  <img class="lg:w-36 lg:h-36 w-[100px]" src="Images/icon/card-13.png" alt="" />
+                </div>
+
+                <div class="flex flex-col gap-2">
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700">সিটিজেন চার্টার</a>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >ফোকাল পয়েন্ট কর্মকর্তা/পরিবীক্ষণ কমিটি</a
+                    >
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >পরিবীক্ষণ/মূল্যায়ন প্রতিবেদন</a
+                    >
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >আইন/বিধি/নীতিমালা/পরিপত্র</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 14 -->
+           <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
+              <div>
+                 <h1 class="lg:text-2xl text-lg pb-2">ই-সেবা</h1>
+              </div>
+              <div class="flex items-center justify-start gap-6">
+                <div>
+                  <img class="lg:w-36 lg:h-36 w-[100px]" src="Images/icon/card-14.png" alt="" />
+                </div>
+
+                <div class="flex flex-col gap-2">
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >ই-পেমেন্ট-বেতনাদি</a
+                    >
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >মাল্টিমিডিয়া কন্টেন্ট</a
+                    >
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700">ই-বুক</a>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >শিক্ষক-কর্মচারীদের PDS</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 15 -->
+           <div class="lg:bg-gray-200 border-black/20 border text-start p-4 border-b-4">
+              <div>
+                 <h1 class="lg:text-2xl text-lg pb-2">জব প্লেসমেন্ট সেল</h1>
+              </div>
+              <div class="flex items-center justify-start gap-6">
+                <div>
+                  <img class="lg:w-36 lg:h-36 w-[100px]" src="Images/icon/card-15.png" alt="" />
+                </div>
+
+                <div class="flex flex-col gap-2">
+                  <div class="flex items-center gap-4">
+                    <div>
+                      <img
+                        class="w-4 h-4"
+                        src="Images/icon/right-arrow.png"
+                        alt=""
+                      />
+                    </div>
+                   <a href="" class="lg:text-sm text-xs text-gray-700"
+                      >ডিপ্লোমা গ্রাজুয়েটদের তথ্য ফরম</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
           </section>
-          <!-- image side section  end-->
+          <!-- ** institute section end -->
+
+          <section>
+            <div class="py-2 px-5 mt-5 bg-[#609513] w-full text-start">
+              <h1 class="lg:text-sm text-xs text-white font-bold">ম্যাপ</h1>
+            </div>
+            <div class="w-full">
+              <table class="w-full">
+                <tbody>
+                  <tr>
+                    <td style="text-align: center">
+                      &lt;<iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.0314746789804!2d89.63237447540179!3d25.802535677326336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e2c927d9521f4d%3A0x2b0a9ba2c39ea8bf!2sKurigram%20Polytechnic%20Institute!5e0!3m2!1sen!2sbd!4v1700464151111!5m2!1sen!2sbd"
+                        width="100%"
+                        height="450"
+                        style="border: 0"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                      ></iframe>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <!-- image side section  start-->
+            <section>
+              <div class="carousel w-full h-[432px] my-4">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="Images/teacher/img-1.jpg" class="w-full" />
+                  <div
+                    class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+                  >
+                    <a href="#slide6" class="btn btn-circle"
+                      ><i class="fa-solid fa-arrow-left"></i
+                    ></a>
+                    <a href="#slide2" class="btn btn-circle"
+                      ><i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="Images/teacher/img-2.jpg" />
+                  <div
+                    class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+                  >
+                    <a href="#slide1" class="btn btn-circle"
+                      ><i class="fa-solid fa-arrow-left"></i
+                    ></a>
+                    <a href="#slide3" class="btn btn-circle"
+                      ><i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="Images/teacher/img-3.jpg" class="w-full" />
+                  <div
+                    class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+                  >
+                    <a href="#slide2" class="btn btn-circle"
+                      ><i class="fa-solid fa-arrow-left"></i
+                    ></a>
+                    <a href="#slide4" class="btn btn-circle"
+                      ><i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="Images/teacher/img-4.jpg" class="w-full" />
+                  <div
+                    class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+                  >
+                    <a href="#slide4" class="btn btn-circle"
+                      ><i class="fa-solid fa-arrow-left"></i
+                    ></a>
+                    <a href="#slide5" class="btn btn-circle"
+                      ><i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+
+                <div id="slide5" class="carousel-item relative w-full">
+                  <img src="Images/teacher/img-6.jpg" class="w-full" />
+                  <div
+                    class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+                  >
+                    <a href="#slide4" class="btn btn-circle"
+                      ><i class="fa-solid fa-arrow-left"></i
+                    ></a>
+                    <a href="#slide6" class="btn btn-circle"
+                      ><i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+
+                <div id="slide6" class="carousel-item relative w-full">
+                  <img src="Images/teacher/img-7.jpg" class="w-full" />
+                  <div
+                    class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+                  >
+                    <a href="#slide5" class="btn btn-circle"
+                      ><i class="fa-solid fa-arrow-left"></i
+                    ></a>
+                    <a href="#slide1" class="btn btn-circle"
+                      ><i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- image side section  end-->
+          </section>
         </section>
       </section>
-    </section>
 
-    <section class="lg:w-1/4">
-      <!-- card section start -->
-      <section>
-        <div class="my-4">
-          <div class="bg-[#609513] w-full">
-            <h2 class="lg:text-start text-center lg:text-sm text-xs  font-black text-white lg:p-3 py-2">
-              অধ্যক্ষ
-            </h2>
-          </div>
-          <div class="text-center p-5">
-            <img class="w-44 h-48 mx-auto" src="Images/teacher/teacher-1.jpg" alt="" />
-            <p class="text-sm mt-4">প্রকৌ. মোঃ তাজুল ইসলাম</p>
-            <p class="text-sm mt-3">অধ্যক্ষ</p>
-          </div>
-          <div class="text-end">
-            <p class="text-sm my-3 mx-7"><a href="">বিস্তারিত... </a></p>
-          </div>
-        </div>
-
-        <div class="my-4">
-          <div class="bg-[#609513] w-full">
-            <h2 class="lg:text-start text-center lg:text-sm text-xs  font-black text-white lg:p-3 py-2">
-              উপাধ্যক্ষ
-            </h2>
-          </div>
-          <div class="text-center p-5">
-            <img class="w-44 h-48 mx-auto" src="Images/teacher/teacher2.PNG" alt="" />
-            <p class="text-sm mt-4">মো. আসাদুজ্জামান</p>
-            <p class="text-sm mt-3">উপাধ্যক্ষ</p>
-          </div>
-          <div class="text-end">
-            <p class="text-sm my-3 mx-7"><a href="">বিস্তারিত... </a></p>
-          </div>
-        </div>
-      </section>
-
-      <!-- calender section -->
-      <section>
-        <div class="bg-[#609513] w-full">
-          <h2 class="lg:text-start text-center lg:text-sm text-xs  font-black text-white lg:p-3 py-2">
-            একাডেমিক ক্যালেন্ডার
-          </h2>
-        </div>
-
-        <div class="flex justify-center items-center border bg-gray-100">
-          <div class="w-80 bg-white shadow rounded p-4">
-            <div class="flex justify-between items-center mb-3 bg-gray-200">
-              <button id="prev" class="px-2 py-1 bg-gray-200 rounded">
-                &lt;
-              </button>
-              <h2 id="monthYear" class="text-lg font-bold">July 2025</h2>
-              <button id="next" class="px-2 py-1 bg-gray-200 rounded">
-                &gt;
-              </button>
-            </div>
-
-            <div class="grid grid-cols-7 text-center font-semibold mb-2">
-              <div>Su</div>
-              <div>Mo</div>
-              <div>Tu</div>
-              <div>We</div>
-              <div>Th</div>
-              <div>Fr</div>
-              <div>Sa</div>
-            </div>
-
-            <div id="dates" class="grid grid-cols-7 gap-3 text-center text-sm">
-              <!-- Dates will be injected here -->
-            </div>
-          </div>
-        </div>
-
-        <script>
-          const months = [
-            { name: "January 2025", days: 31 },
-            { name: "February 2025", days: 28 },
-            { name: "March 2025", days: 31 },
-            { name: "April 2025", days: 30 },
-            { name: "May 2025", days: 31 },
-            { name: "June 2025", days: 30 },
-            { name: "July 2025", days: 31 },
-            { name: "August 2025", days: 31 },
-            { name: "September 2025", days: 30 },
-            { name: "October 2025", days: 31 },
-            { name: "November 2025", days: 30 },
-            { name: "December 2025", days: 31 },
-          ];
-
-          let currentMonth = 6; // July
-          const datesContainer = document.getElementById("dates");
-          const monthYear = document.getElementById("monthYear");
-          const prev = document.getElementById("prev");
-          const next = document.getElementById("next");
-
-          function renderCalendar() {
-            monthYear.textContent = months[currentMonth].name;
-            datesContainer.innerHTML = "";
-
-            const today = new Date();
-            const todayDay = today.getDate();
-            const todayMonth = today.getMonth();
-            const todayYear = today.getFullYear();
-
-            const monthName = months[currentMonth].name;
-            const monthYearMatch =
-              monthName.includes(
-                today.toLocaleString("default", { month: "long" })
-              ) && monthName.includes(todayYear.toString());
-
-            for (let i = 1; i <= months[currentMonth].days; i++) {
-              const div = document.createElement("div");
-
-              if (monthYearMatch && i === todayDay) {
-                div.className =
-                  "border border-gray-400 rounded p-1 bg-blue-100 font-semibold";
-              } else {
-                div.className = "border border-gray-400 rounded p-1";
-              }
-
-              div.textContent = i;
-              datesContainer.appendChild(div);
-            }
-
-            const emptySlots = 7 - (months[currentMonth].days % 7);
-            if (emptySlots < 7) {
-              for (let i = 0; i < emptySlots; i++) {
-                const emptyDiv = document.createElement("div");
-                datesContainer.appendChild(emptyDiv);
-              }
-            }
-          }
-
-          prev.addEventListener("click", () => {
-            currentMonth = (currentMonth - 1 + 12) % 12;
-            renderCalendar();
-          });
-
-          next.addEventListener("click", () => {
-            currentMonth = (currentMonth + 1) % 12;
-            renderCalendar();
-          });
-
-          renderCalendar();
-        </script>
-
-        <!--ports section start-->
-        <section class="grid gap-5 grid-cols-1">
-          <!--ports section 1 -->
-          <div class="flex flex-col gap-1">
+      <section class="lg:w-1/4">
+        <!-- card section start -->
+        <section class="md:grid md:grid-cols-2 lg:grid lg:grid-cols-1 gap-5 ">
+          <div class="my-4">
             <div class="bg-[#609513] w-full">
               <h2 class="lg:text-start text-center lg:text-sm text-xs  font-black text-white lg:p-3 py-2">
-                পোর্টাল
+                অধ্যক্ষ
               </h2>
             </div>
-
-            <div class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3">
-              <div>
-                <img class="w-5 h-5" src="Images/icon/bg_block_list.png" alt="" />
-              </div>
-              <div style="border-bottom: 1px solid transparent">
-                <a href="" class="lg:text-sm text-xs text-black font-bold">শিক্ষার্থী পোর্টাল</a>
-              </div>
+            <div class="text-center p-5">
+              <img
+                class="w-44 h-48 mx-auto"
+                src="Images/teacher/teacher-1.jpg"
+                alt=""
+              />
+              <p class="text-sm mt-4">প্রকৌ. মোঃ তাজুল ইসলাম</p>
+              <p class="text-sm mt-3">অধ্যক্ষ</p>
             </div>
-            <div class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3">
-              <div>
-                <img class="w-5 h-5" src="Images/icon/bg_block_list.png" alt="" />
-              </div>
-              <div style="border-bottom: 1px solid transparent">
-                <a href="" class="lg:text-sm text-xs text-black font-bold">শিক্ষক পোর্টাল</a>
-              </div>
+            <div class="text-end">
+              <p class="text-sm my-3 mx-7"><a href="">বিস্তারিত... </a></p>
             </div>
           </div>
 
-          <!--ports section 2 -->
-          <div class="flex flex-col gap-1">
+          <div class="my-4">
             <div class="bg-[#609513] w-full">
               <h2 class="lg:text-start text-center lg:text-sm text-xs  font-black text-white lg:p-3 py-2">
-                ভর্তি ও ফর্ম ফিলাপ
+                উপাধ্যক্ষ
               </h2>
             </div>
-
-            <div class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3">
-              <div>
-                <img class="w-5 h-5" src="Images/icon/bg_block_list.png" alt="" />
-              </div>
-              <div style="border-bottom: 1px solid transparent">
-                <a href="" class="lg:text-sm text-xs text-black font-bold">ভর্তি ফর্ম</a>
-              </div>
+            <div class="text-center p-5">
+              <img
+                class="w-44 h-48 mx-auto"
+                src="Images/teacher/teacher2.PNG"
+                alt=""
+              />
+              <p class="text-sm mt-4">মো. আসাদুজ্জামান</p>
+              <p class="text-sm mt-3">উপাধ্যক্ষ</p>
             </div>
-
-            <div class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3">
-              <div>
-                <img class="w-5 h-5" src="Images/icon/bg_block_list.png" alt="" />
-              </div>
-              <div style="border-bottom: 1px solid transparent">
-                <a href="" class="lg:text-sm text-xs text-black font-bold">অন্যান্য তথ্য</a>
-              </div>
-            </div>
-            <div class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3">
-              <div>
-                <img class="w-5 h-5" src="Images/icon/bg_block_list.png" alt="" />
-              </div>
-              <div style="border-bottom: 1px solid transparent">
-                <a href="" class="lg:text-sm text-xs text-black font-bold">ভর্তি প্রক্রিয়া</a>
-              </div>
-            </div>
-          </div>
-
-          <!--ports section 3-->
-          <div class="flex flex-col gap-1">
-            <div class="bg-[#609513] w-full">
-              <h2 class="lg:text-start text-center lg:text-sm text-xs  font-black text-white lg:p-3 py-2">
-                ক্লাব
-              </h2>
-            </div>
-
-            <div class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3">
-              <div>
-                <img class="w-5 h-5" src="Images/icon/bg_block_list.png" alt="" />
-              </div>
-              <div style="border-bottom: 1px solid transparent">
-                <a href="" class="lg:text-sm text-xs text-black font-bold">ডিবেটিং ক্লাব</a>
-              </div>
-            </div>
-
-            <div class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3">
-              <div>
-                <img class="w-5 h-5" src="Images/icon/bg_block_list.png" alt="" />
-              </div>
-              <div style="border-bottom: 1px solid transparent">
-                <a href="" class="lg:text-sm text-xs text-black font-bold">সাইন্স ক্লাব</a>
-              </div>
-            </div>
-            <div class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3">
-              <div>
-                <img class="w-5 h-5" src="Images/icon/bg_block_list.png" alt="" />
-              </div>
-              <div style="border-bottom: 1px solid transparent">
-                <a href="" class="lg:text-sm text-xs text-black font-bold">কম্পিউটার ক্লাব</a>
-              </div>
-            </div>
-            <div class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3">
-              <div>
-                <img class="w-5 h-5" src="Images/icon/bg_block_list.png" alt="" />
-              </div>
-              <div style="border-bottom: 1px solid transparent">
-                <a href="" class="lg:text-sm text-xs text-black font-bold">রক্তদান ক্লাব</a>
-              </div>
-            </div>
-            <div class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3">
-              <div>
-                <img class="w-5 h-5" src="Images/icon/bg_block_list.png" alt="" />
-              </div>
-              <div style="border-bottom: 1px solid transparent">
-                <a href="" class="lg:text-sm text-xs text-black font-bold">সাংস্কৃতিক ক্লাব</a>
-              </div>
-            </div>
-          </div>
-
-          <!--ports section 4 -->
-          <div class="flex flex-col gap-1">
-            <div class="bg-[#609513] w-full">
-              <h2 class="lg:text-start text-center lg:text-sm text-xs  font-black text-white lg:p-3 py-2">
-                অভিধান
-              </h2>
-            </div>
-
-            <div class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3">
-              <div>
-                <img class="w-5 h-5" src="Images/icon/bg_block_list.png" alt="" />
-              </div>
-              <div style="border-bottom: 1px solid transparent">
-                <a href="" class="lg:text-sm text-xs text-black font-bold">বাংলা অভিধান</a>
-              </div>
-            </div>
-            <div class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3">
-              <div>
-                <img class="w-5 h-5" src="Images/icon/bg_block_list.png" alt="" />
-              </div>
-              <div style="border-bottom: 1px solid transparent">
-                <a href="" class="lg:text-sm text-xs text-black font-bold">ইংরেজী অভিধান</a>
-              </div>
-            </div>
-          </div>
-
-          <!--ports section 5-->
-          <div class="flex flex-col gap-1">
-            <div class="bg-[#609513] w-full">
-              <h2 class="lg:text-start text-center lg:text-sm text-xs  font-black text-white lg:p-3 py-2">
-                ওয়েব মেইল
-              </h2>
-            </div>
-
-            <div class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3">
-              <div>
-                <img class="w-5 h-5" src="Images/icon/bg_block_list.png" alt="" />
-              </div>
-              <div style="border-bottom: 1px solid transparent">
-                <a href="" class="lg:text-sm text-xs text-black font-bold">লগইন</a>
-              </div>
-            </div>
-          </div>
-
-          <!--ports section 6-->
-          <div class="flex flex-col gap-1">
-            <div class="bg-[#609513] w-full">
-              <h2 class="lg:text-start text-center lg:text-sm text-xs  font-black text-white lg:p-3 py-2">
-                মুক্তপাঠ
-              </h2>
-            </div>
-
-            <div class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3">
-              <div>
-                <img class="w-5 h-5" src="Images/icon/bg_block_list.png" alt="" />
-              </div>
-              <div style="border-bottom: 1px solid transparent">
-                <a href="" class="lg:text-sm text-xs text-black font-bold">মুক্তপাঠ</a>
-              </div>
-            </div>
-          </div>
-
-          <!--ports section 7 -->
-          <div class="flex flex-col gap-1">
-            <div class="bg-[#609513] w-full">
-              <h2 class="lg:text-start text-center lg:text-sm text-xs  font-black text-white lg:p-3 py-2">
-                মাইগভ
-              </h2>
-            </div>
-
-            <div class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3">
-              <div>
-                <img class="w-5 h-5" src="Images/icon/bg_block_list.png" alt="" />
-              </div>
-              <div style="border-bottom: 1px solid transparent">
-                <a href="" class="lg:text-sm text-xs text-black font-bold">মাইগভের সেবা সমূহ</a>
-              </div>
-            </div>
-          </div>
-
-          <!--ports section 8 -->
-          <div class="flex flex-col gap-1">
-            <div class="bg-[#609513] w-full">
-              <h2 class="lg:text-start text-center lg:text-sm text-xs  font-black text-white lg:p-3 py-2">
-                জেলা ব্র্যান্ডিং
-              </h2>
-            </div>
-
-            <div class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3">
-              <div>
-                <img class="w-5 h-5" src="Images/icon/bg_block_list.png" alt="" />
-              </div>
-              <div style="border-bottom: 1px solid transparent">
-                <a href="" class="lg:text-sm text-xs text-black font-bold">জেলা ব্র্যান্ডিং</a>
-              </div>
-            </div>
-          </div>
-
-          <!--ports section 8 -->
-          <div class="flex flex-col gap-1">
-            <div class="bg-[#609513] w-full">
-              <h2 class="lg:text-start text-center lg:text-sm text-xs  font-black text-white lg:p-3 py-2">
-                জাতীয় সংগীত
-              </h2>
-            </div>
-
-            <audio controls="" style="width: 100%" __idm_id__="4112385">
-              <source src="audio/bd_national_anthem.mp3" type="audio/mp3" />
-            </audio>
-          </div>
-
-          <!--ports section 9-->
-          <div class="flex flex-col gap-1">
-            <div class="bg-[#609513] w-full">
-              <h2 class="lg:text-start text-center lg:text-sm text-xs  font-black text-white lg:p-3 py-2">
-                সামাজিক যোগাযোগ
-              </h2>
-            </div>
-            <div class="flex justify-center lg:justify-start ">
-
-              <a class="lg:py-3 py-1" href="https://www.facebook.com/utsob.atiya.rowza.jami"><img
-                  class="lg:w-14 lg:h-14 w-10 h-10" src="Images/icon/facebook.png" alt="" /></a>
-            </div>
-          </div>
-
-          <!--ports section 10-->
-          <div class="flex flex-col gap-1">
-            <div class="bg-[#609513] w-full">
-              <h2 class="lg:text-start text-center lg:text-sm text-xs  font-black text-white lg:p-3 py-2">
-                জরুরি হটলাইন
-              </h2>
-            </div>
-            <div class="lg:flex grid justify-center">
-              <img class="lg:w-[320px] w-[250px] lg:h-[500px] h-auto mt-3" src="Images/calls.png" alt="" />
+            <div class="text-end">
+              <p class="text-sm my-3 mx-7"><a href="">বিস্তারিত... </a></p>
             </div>
           </div>
         </section>
-      </section>
-    </section>
-  </main>
 
-  <!-- footer main section -->
-  <footer>
-    <!-- background section start -->
-    <section class="w-full h-[84px]" style="background-image: url(Images/footer_top_bg.png)"></section>
-    <section class="grid lg:grid-cols-2 my-7 justify-items-center gap-5 grid-cols-1 ">
-      <div class="">
-        <p class="lg:text-base text-xs  ">সাইটটি শেষ হাল-নাগাদ করা হয়েছে:২০২৫-০৭-১৯ ০৪:১৭:২৪</p>
-      </div>
-      <div>
-        <p class="lg:text-end text-center lg:text-base text-xs">
-          পরিকল্পনা ও বাস্তবায়নে:&nbsp;
-          <a href="http://www.cabinet.gov.bd/" title="মন্ত্রিপরিষদ
+        <!-- calender section -->
+        <section>
+          <div class="bg-[#609513] w-full">
+            <h2 class="lg:text-start text-center lg:text-sm text-xs  font-black text-white lg:p-3 py-2">
+              একাডেমিক ক্যালেন্ডার
+            </h2>
+          </div>
+
+          <div class="flex justify-center items-center border bg-gray-100">
+            <div class="w-80 bg-white shadow rounded p-4">
+              <div class="flex justify-between items-center mb-3 bg-gray-200">
+                <button id="prev" class="px-2 py-1 bg-gray-200 rounded">
+                  &lt;
+                </button>
+                <h2 id="monthYear" class="text-lg font-bold">July 2025</h2>
+                <button id="next" class="px-2 py-1 bg-gray-200 rounded">
+                  &gt;
+                </button>
+              </div>
+
+              <div class="grid grid-cols-7 text-center font-semibold mb-2">
+                <div>Su</div>
+                <div>Mo</div>
+                <div>Tu</div>
+                <div>We</div>
+                <div>Th</div>
+                <div>Fr</div>
+                <div>Sa</div>
+              </div>
+
+              <div
+                id="dates"
+                class="grid grid-cols-7 gap-3 text-center text-sm"
+              >
+                <!-- Dates will be injected here -->
+              </div>
+            </div>
+          </div>
+
+          <script>
+            const months = [
+              { name: "January 2025", days: 31 },
+              { name: "February 2025", days: 28 },
+              { name: "March 2025", days: 31 },
+              { name: "April 2025", days: 30 },
+              { name: "May 2025", days: 31 },
+              { name: "June 2025", days: 30 },
+              { name: "July 2025", days: 31 },
+              { name: "August 2025", days: 31 },
+              { name: "September 2025", days: 30 },
+              { name: "October 2025", days: 31 },
+              { name: "November 2025", days: 30 },
+              { name: "December 2025", days: 31 },
+            ];
+
+            let currentMonth = 6; // July
+            const datesContainer = document.getElementById("dates");
+            const monthYear = document.getElementById("monthYear");
+            const prev = document.getElementById("prev");
+            const next = document.getElementById("next");
+
+            function renderCalendar() {
+              monthYear.textContent = months[currentMonth].name;
+              datesContainer.innerHTML = "";
+
+              const today = new Date();
+              const todayDay = today.getDate();
+              const todayMonth = today.getMonth();
+              const todayYear = today.getFullYear();
+
+              const monthName = months[currentMonth].name;
+              const monthYearMatch =
+                monthName.includes(
+                  today.toLocaleString("default", { month: "long" })
+                ) && monthName.includes(todayYear.toString());
+
+              for (let i = 1; i <= months[currentMonth].days; i++) {
+                const div = document.createElement("div");
+
+                if (monthYearMatch && i === todayDay) {
+                  div.className =
+                    "border border-gray-400 rounded p-1 bg-blue-100 font-semibold";
+                } else {
+                  div.className = "border border-gray-400 rounded p-1";
+                }
+
+                div.textContent = i;
+                datesContainer.appendChild(div);
+              }
+
+              const emptySlots = 7 - (months[currentMonth].days % 7);
+              if (emptySlots < 7) {
+                for (let i = 0; i < emptySlots; i++) {
+                  const emptyDiv = document.createElement("div");
+                  datesContainer.appendChild(emptyDiv);
+                }
+              }
+            }
+
+            prev.addEventListener("click", () => {
+              currentMonth = (currentMonth - 1 + 12) % 12;
+              renderCalendar();
+            });
+
+            next.addEventListener("click", () => {
+              currentMonth = (currentMonth + 1) % 12;
+              renderCalendar();
+            });
+
+            renderCalendar();
+          </script>
+
+          <!--ports section start-->
+          <section class="grid gap-5 grid-cols-1">
+            <!--ports section 1 -->
+            <div class="flex flex-col gap-1">
+              <div class="bg-[#609513] w-full">
+               <h2 class="lg:text-start text-center lg:text-sm text-xs  font-black text-white lg:p-3 py-2">
+                  পোর্টাল
+                </h2>
+              </div>
+
+              <div
+                class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3"
+              >
+                <div>
+                  <img
+                    class="w-5 h-5"
+                    src="Images/icon/bg_block_list.png"
+                    alt=""
+                  />
+                </div>
+                <div style="border-bottom: 1px solid transparent">
+                 <a href="" class="lg:text-sm text-xs text-black font-bold"
+                    >শিক্ষার্থী পোর্টাল</a
+                  >
+                </div>
+              </div>
+              <div
+                class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3"
+              >
+                <div>
+                  <img
+                    class="w-5 h-5"
+                    src="Images/icon/bg_block_list.png"
+                    alt=""
+                  />
+                </div>
+                <div style="border-bottom: 1px solid transparent">
+                 <a href="" class="lg:text-sm text-xs text-black font-bold"
+                    >শিক্ষক পোর্টাল</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!--ports section 2 -->
+            <div class="flex flex-col gap-1">
+              <div class="bg-[#609513] w-full">
+               <h2 class="lg:text-start text-center lg:text-sm text-xs  font-black text-white lg:p-3 py-2">
+                  ভর্তি ও ফর্ম ফিলাপ
+                </h2>
+              </div>
+
+              <div
+                class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3"
+              >
+                <div>
+                  <img
+                    class="w-5 h-5"
+                    src="Images/icon/bg_block_list.png"
+                    alt=""
+                  />
+                </div>
+                <div style="border-bottom: 1px solid transparent">
+                 <a href="" class="lg:text-sm text-xs text-black font-bold">ভর্তি ফর্ম</a>
+                </div>
+              </div>
+
+              <div
+                class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3"
+              >
+                <div>
+                  <img
+                    class="w-5 h-5"
+                    src="Images/icon/bg_block_list.png"
+                    alt=""
+                  />
+                </div>
+                <div style="border-bottom: 1px solid transparent">
+                 <a href="" class="lg:text-sm text-xs text-black font-bold"
+                    >অন্যান্য তথ্য</a
+                  >
+                </div>
+              </div>
+              <div
+                class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3"
+              >
+                <div>
+                  <img
+                    class="w-5 h-5"
+                    src="Images/icon/bg_block_list.png"
+                    alt=""
+                  />
+                </div>
+                <div style="border-bottom: 1px solid transparent">
+                 <a href="" class="lg:text-sm text-xs text-black font-bold"
+                    >ভর্তি প্রক্রিয়া</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!--ports section 3-->
+            <div class="flex flex-col gap-1">
+              <div class="bg-[#609513] w-full">
+               <h2 class="lg:text-start text-center lg:text-sm text-xs  font-black text-white lg:p-3 py-2">
+                  ক্লাব
+                </h2>
+              </div>
+
+              <div
+                class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3"
+              >
+                <div>
+                  <img
+                    class="w-5 h-5"
+                    src="Images/icon/bg_block_list.png"
+                    alt=""
+                  />
+                </div>
+                <div style="border-bottom: 1px solid transparent">
+                 <a href="" class="lg:text-sm text-xs text-black font-bold"
+                    >ডিবেটিং ক্লাব</a
+                  >
+                </div>
+              </div>
+
+              <div
+                class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3"
+              >
+                <div>
+                  <img
+                    class="w-5 h-5"
+                    src="Images/icon/bg_block_list.png"
+                    alt=""
+                  />
+                </div>
+                <div style="border-bottom: 1px solid transparent">
+                 <a href="" class="lg:text-sm text-xs text-black font-bold"
+                    >সাইন্স ক্লাব</a
+                  >
+                </div>
+              </div>
+              <div
+                class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3"
+              >
+                <div>
+                  <img
+                    class="w-5 h-5"
+                    src="Images/icon/bg_block_list.png"
+                    alt=""
+                  />
+                </div>
+                <div style="border-bottom: 1px solid transparent">
+                 <a href="" class="lg:text-sm text-xs text-black font-bold"
+                    >কম্পিউটার ক্লাব</a
+                  >
+                </div>
+              </div>
+              <div
+                class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3"
+              >
+                <div>
+                  <img
+                    class="w-5 h-5"
+                    src="Images/icon/bg_block_list.png"
+                    alt=""
+                  />
+                </div>
+                <div style="border-bottom: 1px solid transparent">
+                 <a href="" class="lg:text-sm text-xs text-black font-bold"
+                    >রক্তদান ক্লাব</a
+                  >
+                </div>
+              </div>
+              <div
+                class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3"
+              >
+                <div>
+                  <img
+                    class="w-5 h-5"
+                    src="Images/icon/bg_block_list.png"
+                    alt=""
+                  />
+                </div>
+                <div style="border-bottom: 1px solid transparent">
+                 <a href="" class="lg:text-sm text-xs text-black font-bold"
+                    >সাংস্কৃতিক ক্লাব</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!--ports section 4 -->
+            <div class="flex flex-col gap-1">
+              <div class="bg-[#609513] w-full">
+               <h2 class="lg:text-start text-center lg:text-sm text-xs  font-black text-white lg:p-3 py-2">
+                  অভিধান
+                </h2>
+              </div>
+
+              <div
+                class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3"
+              >
+                <div>
+                  <img
+                    class="w-5 h-5"
+                    src="Images/icon/bg_block_list.png"
+                    alt=""
+                  />
+                </div>
+                <div style="border-bottom: 1px solid transparent">
+                 <a href="" class="lg:text-sm text-xs text-black font-bold"
+                    >বাংলা অভিধান</a
+                  >
+                </div>
+              </div>
+              <div
+                class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3"
+              >
+                <div>
+                  <img
+                    class="w-5 h-5"
+                    src="Images/icon/bg_block_list.png"
+                    alt=""
+                  />
+                </div>
+                <div style="border-bottom: 1px solid transparent">
+                 <a href="" class="lg:text-sm text-xs text-black font-bold"
+                    >ইংরেজী অভিধান</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!--ports section 5-->
+            <div class="flex flex-col gap-1">
+              <div class="bg-[#609513] w-full">
+               <h2 class="lg:text-start text-center lg:text-sm text-xs  font-black text-white lg:p-3 py-2">
+                  ওয়েব মেইল
+                </h2>
+              </div>
+
+              <div
+                class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3"
+              >
+                <div>
+                  <img
+                    class="w-5 h-5"
+                    src="Images/icon/bg_block_list.png"
+                    alt=""
+                  />
+                </div>
+                <div style="border-bottom: 1px solid transparent">
+                 <a href="" class="lg:text-sm text-xs text-black font-bold">লগইন</a>
+                </div>
+              </div>
+            </div>
+
+            <!--ports section 6-->
+            <div class="flex flex-col gap-1">
+              <div class="bg-[#609513] w-full">
+               <h2 class="lg:text-start text-center lg:text-sm text-xs  font-black text-white lg:p-3 py-2">
+                  মুক্তপাঠ
+                </h2>
+              </div>
+
+              <div
+                class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3"
+              >
+                <div>
+                  <img
+                    class="w-5 h-5"
+                    src="Images/icon/bg_block_list.png"
+                    alt=""
+                  />
+                </div>
+                <div style="border-bottom: 1px solid transparent">
+                 <a href="" class="lg:text-sm text-xs text-black font-bold">মুক্তপাঠ</a>
+                </div>
+              </div>
+            </div>
+
+            <!--ports section 7 -->
+            <div class="flex flex-col gap-1">
+              <div class="bg-[#609513] w-full">
+               <h2 class="lg:text-start text-center lg:text-sm text-xs  font-black text-white lg:p-3 py-2">
+                  মাইগভ
+                </h2>
+              </div>
+
+              <div
+                class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3"
+              >
+                <div>
+                  <img
+                    class="w-5 h-5"
+                    src="Images/icon/bg_block_list.png"
+                    alt=""
+                  />
+                </div>
+                <div style="border-bottom: 1px solid transparent">
+                 <a href="" class="lg:text-sm text-xs text-black font-bold"
+                    >মাইগভের সেবা সমূহ</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!--ports section 8 -->
+            <div class="flex flex-col gap-1">
+              <div class="bg-[#609513] w-full">
+               <h2 class="lg:text-start text-center lg:text-sm text-xs  font-black text-white lg:p-3 py-2">
+                  জেলা ব্র্যান্ডিং
+                </h2>
+              </div>
+
+              <div
+                class="flex items-center gap-4 mt-5 w-full border-b-[1px] border-black pb-3"
+              >
+                <div>
+                  <img
+                    class="w-5 h-5"
+                    src="Images/icon/bg_block_list.png"
+                    alt=""
+                  />
+                </div>
+                <div style="border-bottom: 1px solid transparent">
+                 <a href="" class="lg:text-sm text-xs text-black font-bold"
+                    >জেলা ব্র্যান্ডিং</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!--ports section 8 -->
+            <div class="flex flex-col gap-1">
+              <div class="bg-[#609513] w-full">
+               <h2 class="lg:text-start text-center lg:text-sm text-xs  font-black text-white lg:p-3 py-2">
+                  জাতীয় সংগীত
+                </h2>
+              </div>
+
+              <audio controls="" style="width: 100%" __idm_id__="4112385">
+                <source src="audio/bd_national_anthem.mp3" type="audio/mp3" />
+              </audio>
+            </div>
+
+            <!--ports section 9-->
+            <div class="flex flex-col gap-1">
+              <div class="bg-[#609513] w-full">
+               <h2 class="lg:text-start text-center lg:text-sm text-xs  font-black text-white lg:p-3 py-2">
+                  সামাজিক যোগাযোগ
+                </h2>
+              </div>
+              <div class="flex justify-center lg:justify-start ">
+
+                <a
+                class="lg:py-3 py-1"
+                href="https://www.facebook.com/utsob.atiya.rowza.jami"
+                ><img class="lg:w-14 lg:h-14 w-10 h-10" src="Images/icon/facebook.png" alt=""
+                /></a>
+              </div>
+            </div>
+
+            <!--ports section 10-->
+            <div class="flex flex-col gap-1">
+              <div class="bg-[#609513] w-full">
+               <h2 class="lg:text-start text-center lg:text-sm text-xs  font-black text-white lg:p-3 py-2">
+                  জরুরি হটলাইন
+                </h2>
+              </div>
+                  <div class="lg:flex grid justify-center">
+                <img
+                  class="lg:w-[320px] w-[250px] lg:h-[500px] h-auto mt-3"
+                  src="Images/calls.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </section>
+        </section>
+      </section>
+    </main>
+
+    <!-- footer main section -->
+    <footer>
+      <!-- background section start -->
+      <section
+        class="w-full h-[84px]"
+        style="background-image: url(Images/footer_top_bg.png)"
+      ></section>
+      <section class="grid lg:grid-cols-2 my-7 justify-items-center gap-5 grid-cols-1 ">
+        <div class="">
+          <p class="lg:text-base text-xs  ">সাইটটি শেষ হাল-নাগাদ করা হয়েছে:২০২৫-০৭-১৯ ০৪:১৭:২৪</p>
+        </div>
+        <div>
+          <p class="lg:text-end text-center lg:text-base text-xs">
+                পরিকল্পনা ও বাস্তবায়নে:&nbsp;
+                <a href="http://www.cabinet.gov.bd/" title="মন্ত্রিপরিষদ
                     বিভাগ">মন্ত্রিপরিষদ
-            বিভাগ</a>,&nbsp;
-          <a href="https://a2i.gov.bd" title="এটুআই">এটুআই</a>,&nbsp;
-          <a href="http://www.bcc.net.bd/" title="বিসিসি">বিসিসি</a>,&nbsp;
-          <a href="http://doict.gov.bd/" title="ডিওআইসিটি">ডিওআইসিটি</a>&nbsp;ও&nbsp;
-          <a href="http://www.basis.org.bd/" title="বেসিস">বেসিস</a>।
-        </p>
+                    বিভাগ</a>,&nbsp;
+                <a href="https://a2i.gov.bd" title="এটুআই">এটুআই</a>,&nbsp;
+                <a href="http://www.bcc.net.bd/" title="বিসিসি">বিসিসি</a>,&nbsp;
+                <a href="http://doict.gov.bd/" title="ডিওআইসিটি">ডিওআইসিটি</a>&nbsp;ও&nbsp;
+                <a href="http://www.basis.org.bd/" title="বেসিস">বেসিস</a>।
+            </p>
+      
 
 
+</div>
 
-      </div>
-
-      </div>
-    </section>
-  </footer>
-</body>
-
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>
